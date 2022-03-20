@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/16 11:08:17.000.563,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/16 12:50:48.000.217,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/15 10:32:08.000.677,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/15 10:32:49.000.922,D:\99Burger\Mobile\UnitPrincipal.pas=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/15 10:32:49.000.922,D:\99Burger\Mobile\UnitPrincipal.fmx=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/03/15 10:32:56.000.712,D:\99Burger\Mobile\Cardapio.dproj=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/15 11:13:51.000.152,=D:\99Burger\Mobile\Unit1.pas</Transaction>
+    <Transaction>2022/03/15 11:14:42.000.832,D:\99Burger\Mobile\Unit1.pas=D:\99Burger\Mobile\DataModule\Dm.Principal.pas</Transaction>
+    <Transaction>2022/03/15 11:14:42.000.832,D:\99Burger\Mobile\Unit1.dfm=D:\99Burger\Mobile\DataModule\Dm.Principal.dfm</Transaction>
+    <Transaction>2022/03/15 12:11:07.000.652,=D:\99Burger\Mobile\Units\uFunctions.pas</Transaction>
+    <Transaction>2022/03/15 12:11:07.000.677,=D:\99Burger\Mobile\Units\uLoading.pas</Transaction>
+    <Transaction>2022/03/15 13:26:06.000.381,=D:\99Burger\Mobile\Unit1.pas</Transaction>
+    <Transaction>2022/03/15 13:26:16.000.189,D:\99Burger\Mobile\Unit1.pas=D:\99Burger\Mobile\UnitSacola.pas</Transaction>
+    <Transaction>2022/03/15 13:26:16.000.189,D:\99Burger\Mobile\Unit1.fmx=D:\99Burger\Mobile\UnitSacola.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacMini iOSSimulator="iPhone5"/>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

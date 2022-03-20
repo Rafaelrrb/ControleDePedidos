@@ -1,0 +1,275 @@
+object FrmSacola: TFrmSacola
+  Left = 0
+  Top = 0
+  Caption = 'Sacola'
+  ClientHeight = 520
+  ClientWidth = 359
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object rectToolbar: TRectangle
+    Align = Top
+    Fill.Color = claWhite
+    Sides = [Bottom]
+    Size.Width = 359.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFECECEC
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family, FontColor]
+      Size.Width = 359.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Minha Sacola'
+      TabOrder = 0
+    end
+    object imgVoltar: TImage
+      MultiResBitmap = <
+        item
+          Width = 50
+          Height = 50
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+            B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01DA494441546843EDD8CB2A465118C6F1CF29324288E41A1C4A914351CC3076
+            0B8A9981815B30A170058AC800296562A01C660A390C0CCC30703EFB3F65D7EE
+            6BC9E0FBE8DD7A9FFAB5A7FBDD6BED771D521E8FC7E3F1783C59491B56718735
+            D4235129460F2EF08E8FAFE70A1293028CE0122A20EE1689480526A1A9945E84
+            4644D3CB7C6A318F37A41721DB6884D9E4A109C70815F0840554C26CF2D18B53
+            848AB8C10C34E5CCA61043B842A8887B0C421DCC6C4A310DBD6CA88823F441D3
+            CE6C54C4121E102AE2009DC881D9746017A1025E30872A984D2EFA71885011CF
+            9882E9228A308C6B848AD00A3E0AD3FF833286EF3AD309F453AB83998F367EA1
+            22F6D18C3F1B09CDEF4CA2970E458BE19F76A64CBF985E58DD4ACF78CAD08573
+            9C417BAC5F4DA685EC41FF480BF4E347D168684DE986466DEBEB693A51FBD562
+            171D94E2D47EC751834444A3B283F442E4153A015623112981B6285AC9430569
+            D4D4CDB2DE08B2DD1E1FB1094DB106E8681B4F39DAA1855245A938D3F917DBF8
+            286AC903D0E2182A46970D3AC3EB74687A37ACE8057F3AEA2EC2F429311E5D3E
+            CCE2BBCB078D9AE9CB8778B48E4C2074E85273584662F22F2EE8A2E8BFD1ED8A
+            B6F9D14E40CF752432ADD8805AB416D13A783C1E8FC7E3F1A452A94F8D78C524
+            5BEACFB10000000049454E44AE426082}
+          FileName = 'D:\99Coders\Lancamento 16\FontesFull\Mobile\Images\voltar.png'
+        end>
+      Align = Left
+      Cursor = crHandPoint
+      Margins.Left = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = imgVoltarClick
+    end
+  end
+  object rectAdicionar: TRectangle
+    Align = Bottom
+    Cursor = crHandPoint
+    Fill.Color = xFFFC6E3C
+    Position.Y = 468.000000000000000000
+    Size.Width = 359.000000000000000000
+    Size.Height = 52.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    OnClick = rectAdicionarClick
+    object lblFinalizar: TLabel
+      Align = Client
+      StyledSettings = [Family]
+      Locked = True
+      Margins.Top = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 359.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Finalizar Pedido'
+      TabOrder = 1
+    end
+  end
+  object rectRodape: TRectangle
+    Align = Bottom
+    Fill.Color = claWhite
+    Position.Y = 330.000000000000000000
+    Sides = [Top]
+    Size.Width = 359.000000000000000000
+    Size.Height = 138.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFEEF0F5
+    object Layout1: TLayout
+      Align = Top
+      Size.Width = 359.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Label2: TLabel
+        Align = Left
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        Text = 'Subtotal'
+        TabOrder = 1
+      end
+      object lblSubtotal: TLabel
+        Align = Right
+        StyledSettings = [Family, FontColor]
+        Margins.Right = 10.000000000000000000
+        Position.X = 212.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.HorzAlign = Trailing
+        Text = 'R$ 0,00'
+        TabOrder = 0
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.Y = 82.000000000000000000
+      Size.Width = 359.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label4: TLabel
+        Align = Left
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        Text = 'Total'
+        TabOrder = 1
+      end
+      object lblTotal: TLabel
+        Align = Right
+        StyledSettings = [Family, FontColor]
+        Margins.Right = 10.000000000000000000
+        Position.X = 212.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.HorzAlign = Trailing
+        Text = 'R$ 0,00'
+        TabOrder = 0
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Position.Y = 41.000000000000000000
+      Size.Width = 359.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label6: TLabel
+        Align = Left
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        Text = 'Taxa de Entrega'
+        TabOrder = 1
+      end
+      object LblEntrega: TLabel
+        Align = Right
+        StyledSettings = [Family, FontColor]
+        Margins.Right = 10.000000000000000000
+        Position.X = 212.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.HorzAlign = Trailing
+        Text = 'R$ 0,00'
+        TabOrder = 0
+      end
+    end
+  end
+  object lvSacola: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    ItemSpaces.Left = 0.000000000000000000
+    ItemSpaces.Right = 0.000000000000000000
+    Align = Client
+    Size.Width = 359.000000000000000000
+    Size.Height = 280.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearance.ItemHeight = 80
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'txtNome'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.Size = 14.000000000000000000
+        Appearance.Font.StyleExt = {00060000000000000004000000}
+        Appearance.TextAlign = Leading
+        Appearance.TextColor = xFF101010
+        Appearance.Width = 197.000000000000000000
+        Appearance.Height = 27.000000000000000000
+        Appearance.PlaceOffset.X = 66.000000000000000000
+        Appearance.PlaceOffset.Y = 13.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'txtQtd'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.Size = 13.000000000000000000
+        Appearance.TextAlign = Leading
+        Appearance.TextVertAlign = Leading
+        Appearance.WordWrap = True
+        Appearance.TextColor = xFFB3B3B3
+        Appearance.Width = 279.000000000000000000
+        Appearance.Height = 23.000000000000000000
+        Appearance.PlaceOffset.X = 66.000000000000000000
+        Appearance.PlaceOffset.Y = 44.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'txtValor'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.Size = 14.000000000000000000
+        Appearance.Font.StyleExt = {00060000000000000004000000}
+        Appearance.TextAlign = Trailing
+        Appearance.TextColor = xFFFC6E3C
+        Appearance.Width = 79.000000000000000000
+        Appearance.Height = 27.000000000000000000
+        Appearance.Align = Trailing
+        Appearance.PlaceOffset.X = -7.000000000000000000
+        Appearance.PlaceOffset.Y = 13.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'imgFoto'
+        AppearanceClassName = 'TImageObjectAppearance'
+        Appearance.ScalingMode = Stretch
+        Appearance.Width = 50.000000000000000000
+        Appearance.Height = 50.000000000000000000
+        Appearance.PlaceOffset.X = 8.000000000000000000
+        Appearance.PlaceOffset.Y = 13.000000000000000000
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+    CanSwipeDelete = False
+    ShowSelection = False
+  end
+end

@@ -1,0 +1,11 @@
+Como instalar o Delphi
+https://youtu.be/dr3X0nnLDII
+
+Primeiros passos com o Delphi
+https://youtu.be/dOmuoFZI7f8
+
+Configurando o SDK Android no Delphi
+https://youtu.be/lUInnWF0UTA
+
+Rest Request 4 Delphi
+https://youtu.be/Im4LPpGmgAc
